@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abenezer's Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans flex">
+
+  <!-- Sidebar Navigation -->
+  <nav class="w-48 h-screen bg-gray-800 p-6 fixed left-0 top-0">
+    <div class="text-2xl font-bold mb-8 text-white">Abenezer</div>
+    <ul class="space-y-4 text-lg">
+      <li>
+        <span class="text-gray-500 cursor-default">Home</span>
+      </li>
+      <li>
+        <a href="/about.html" class="text-blue-400 hover:underline">About</a>
+      </li>
+      <li>
+        <a href="/blog.html" class="text-blue-400 hover:underline">Blog</a>
+      </li>
+      <li>
+        <a href="/projects.html" class="text-blue-400 hover:underline">Projects</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="ml-48 flex items-center justify-center w-full min-h-screen">
+    <div class="w-full max-w-3xl px-6 py-20 text-left">
+      <!-- Profile Image -->
+      <img src="profile.webp" alt="Abenezer Woldesenbet" class="w-32 h-32 rounded-full shadow-md mb-6 object-cover" />
+
+      <!-- Heading -->
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">Welcome to My Blog 👋</h1>
+
+      <!-- Description -->
+      <div class="text-lg md:text-xl max-w-xl space-y-4 mb-10">
+        <p>
+          I'm Abenezer, a backend developer who enjoys building systems, solving technical challenges, and sharing what I learn.
+        </p>
+        <p>
+          This blog documents my journey, thoughts, and projects. More posts and updates coming soon — stay tuned!
+        </p>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="flex flex-wrap gap-4">
+        <a href="/blog.html" class="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-gray-900 transition">
+          Go to Blog
+        </a>
+        <a href="/projects.html" class="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-gray-900 transition">
+          View Projects
+        </a>
+        <a href="/about.html" class="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-gray-900 transition">
+          About Me
+        </a>
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-20 text-sm text-gray-500">
+        &copy; 2025 Abenezer Woldesenbet. All rights reserved.
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
